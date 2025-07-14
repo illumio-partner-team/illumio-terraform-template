@@ -40,10 +40,10 @@ resource "azurerm_subnet" "subnetB" {
 
 
 # Create public IPs
-resource "azurerm_public_ip" "JumpIP" {
-  name                = "JumpIP"
-  location            = azurerm_resource_group.rg.location
-  resource_group_name = azurerm_resource_group.rg.name
-  allocation_method   = "Dynamic"
-}
+# resource "azurerm_public_ip" "JumpIP" {
+#  name                = "JumpIP"
+#  location            = azurerm_resource_group.rg.location
+#  resource_group_name = azurerm_resource_group.rg.name
+#  allocation_method   = "Dynamic"
+# }
 

@@ -1,6 +1,3 @@
-
-
-
 # Generate random text for a unique storage account name
 resource "random_id" "random_id" {
   keepers = {
@@ -174,7 +171,7 @@ resource "azurerm_network_interface" "nic-C" {
     subnet_id                     = azurerm_subnet.subnetA.id
     private_ip_address_allocation = "Static"
         private_ip_address = "192.168.1.5"
-        public_ip_address_id = azurerm_public_ip.JumpIP.id
+        // public_ip_address_id = azurerm_public_ip.JumpIP.id
 
   }
 }

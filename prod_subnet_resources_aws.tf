@@ -198,7 +198,7 @@ resource "aws_instance" "crm-web01-prd" {
     sudo yum update -y
     sudo yum install -y httpd
     sudo systemctl start httpd
-    sudo systemct enable httpd
+    sudo systemctl enable httpd
     sudo yum install telnet -y
     sudo yum install cronie -y
     sudo systemctl enable crond.service
@@ -227,7 +227,7 @@ resource "aws_instance" "crm-proc01-prd" {
     sudo yum update -y
     sudo yum install -y httpd
     sudo systemctl start httpd
-    sudo systemct enable httpd
+    sudo systemctl enable httpd
     sudo yum install telnet -y
     sudo yum install cronie -y
     sudo systemctl enable crond.service
@@ -256,7 +256,7 @@ resource "aws_instance" "crm-db01-prd" {
     sudo yum update -y
     sudo yum install -y httpd
     sudo systemctl start httpd
-    sudo systemct enable httpd
+    sudo systemctl enable httpd
     sudo yum install telnet -y
     sudo yum install cronie -y
     sudo systemctl enable crond.service

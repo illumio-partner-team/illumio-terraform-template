@@ -19,7 +19,7 @@ resource "aws_instance" "pos-web01-prd" {
     sudo yum update -y
     sudo yum install -y httpd
     sudo systemctl start httpd
-    sudo systemct enable httpd
+    sudo systemctl enable httpd
     sudo yum install telnet -y
     sudo yum install cronie -y
     sudo systemctl enable crond.service
